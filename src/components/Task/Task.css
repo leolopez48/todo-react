@@ -1,0 +1,18 @@
+.task {
+    padding: 0.8rem;
+    background-color: var(--background-task);
+    border-radius: 0.5rem;
+}
+
+.task:hover {
+    padding: 0.8rem;
+    background-color: var(--dark-grey);
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--text-white);
+}
+
+.btn-danger,
+.btn-danger:hover {
+    background-color: var(--dark-red);
+    border: 1px solid var(--dark-red) !important;
+}
